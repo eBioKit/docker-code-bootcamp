@@ -1,0 +1,30 @@
+[
+	{
+		"name": "INSTANCE_TITLE",
+		"label": "Service name",
+		"type": "text",
+		"description": "The title for the new service",
+		"default": "CMD bootcamp"
+	},
+	{
+		"name": "INSTANCE_PORT_1",
+		"label": "Port number",
+		"type": "number",
+		"description": "Main port number for the new instance",
+		"default": 8094
+	},
+	{
+		"name": "INSTANCE_PORT_1",
+		"label": "Port number",
+		"type": "number",
+		"description": "Secondary port number for the new instance",
+		"default": 8093
+	},
+	{
+		"name": "INSTANCE_URL",
+		"label": "URL",
+		"type": "text",
+		"description": "The URL for the new instance",
+		"default": "/cmd-bootcamp"
+	}
+]

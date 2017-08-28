@@ -1,0 +1,7 @@
+upstream $${INSTANCE_NAME}_web_app {
+        server 192.168.99.100:$${INSTANCE_PORT_1};
+}
+
+upstream $${INSTANCE_NAME}_term_app {
+        server 192.168.99.100:$${INSTANCE_PORT_2};
+}
