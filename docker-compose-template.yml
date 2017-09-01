@@ -15,7 +15,7 @@ services:
       privileged: true
 
     $${INSTANCE_NAME}-command-line-bootcamp-term:
-      image: fikipollo/command-line-bootcamp:term
+      image: fikipollo/cmd-bootcamp-term:0.9
       container_name: $${INSTANCE_NAME}-command-line-bootcamp-term
       links:
         - $${INSTANCE_NAME}-command-line-bootcamp-docker:docker
@@ -25,7 +25,7 @@ services:
         - "$${INSTANCE_PORT_2}:8080"
 
     $${INSTANCE_NAME}-command-line-bootcamp-web:
-      image: fikipollo/command-line-bootcamp:web
+      image: fikipollo/cmd-bootcamp-web:0.9
       container_name: $${INSTANCE_NAME}-command-line-bootcamp-web
       ports:
         - "$${INSTANCE_PORT_1}:80"
