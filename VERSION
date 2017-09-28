@@ -1,1 +1,4 @@
 v0.9 August 2017.
+docker:1.8-dind
+fikipollo/cmd-bootcamp-term:0.9
+fikipollo/cmd-bootcamp-web:0.9
